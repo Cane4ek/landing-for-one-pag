@@ -1,0 +1,581 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+@font-face { 
+	font-family: 'Bootstrap Glyphicons'; 
+	src: local ('GLYPHICONS Halflings'),
+		url('fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+		url('fonts/glyphicons-halflings-regular.woff') format('woff'),	 
+		url('fonts/glyphicons-halflings-regular.ttf') format('ttf'),
+		url('fonts/glyphicons-halflings-regular.eot') format('eot'); /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+	font-weight: normal, 
+	font-style: normal; 
+}
+/* @import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500'); */
+.navbar-iverse {
+	background-color: #e9e9e9;
+}
+.navbar-default
+.nav>li>a {
+	color: #1d1d1d !important;
+} 
+.navbar-nav>li>a:hover {
+	color: #10c9c3 !important;
+}
+.navbar-static-top {
+	background-color: #e9e9e9;
+}
+.going {
+	color: black;
+}
+.nav>li>.going:hover,
+.nav>li>.going:focus {
+	background-color: #e9e9e9;
+}
+.nav>li>.going:focus {
+	color: #10c9c3;
+}
+.nav {
+	font-family: 'Montserrat';
+	margin-top: 25px;
+	font-size: 12px;
+	font-weight: 500 ;
+	color: #191919;
+
+}
+.navbar-header {
+	padding-top: 15px;
+}
+.buttle-toggle {
+	background-color: #e9e9e9;
+	border-radius: 4px;
+	border: 1px solid #d1d1d1;
+}
+.mybar {
+	color: #000;
+}
+.section-two {
+	margin-top: 80px;
+}
+.about-us {
+	color: #191919;
+	font-family: 'Montserrat';
+	font-weight: 500;
+	margin-bottom: 40px;
+}
+.divide-text {
+	color: #787878;
+	font-family: 'Nunito Sans';
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+.sgn {
+	margin-bottom: 100px;
+}
+.first-text {
+	color: #1d1d1d;
+	font-family: 'Montserrat';
+	font-weight: 500;
+	padding-top: 160px;
+	font-size: 38px;
+}
+.two-text {
+	color: #787878;
+	font-family: 'Nunito Sans';
+	font-weight: 400;
+	padding-top: 20px;
+	font-size: 18px;
+}
+.btn-style {
+	font-family: 'Montserrat';
+	font-weight: 500;
+	margin-top: 30px;
+	margin-bottom: 190px;
+	font-size: 12px;
+	padding: 23px 46px;
+	border: none;
+	background-color: #10c9c3;
+	color: #fff;
+}
+span {
+	background: black;
+}
+.about-us,
+.divide-text,
+.sgn {
+	text-align: center;
+}
+.about-us>h1 {
+	font-size: 30px;
+}
+.divide-text {
+	font-size: 18px;
+}
+.section-three {
+	height: 100%;
+	background-image: linear-gradient(90deg, #f8f9f9 50%, #e9e9e9 50%);
+}
+.proskill-text {
+
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.proskill {
+	font-family: 'Montserrat';
+	font-weight: 500;
+	color: #1d1d1d;
+	width: 45%;
+}
+.bgstyle {
+	margin-top: 165px;
+	margin-bottom: 165px;
+}
+.design,
+.webd,
+.market {
+	font-size: 12px;
+}
+.line-one,
+.line-two,
+.line-three {
+	height: 3px;
+	background-color: #d8d8d8;
+	margin-bottom: 40px;
+}
+.design,
+.webd,
+.market {
+	margin-bottom: 20px;
+}
+.level {
+	position: relative;
+}
+.level::before,
+.level::after {
+	content: '';
+	position: absolute;
+}
+.level::before {
+	height: 100%;
+}
+.line-one::before {
+	width: 75%;
+	background-color: #10c9c3;
+}
+.line-two::before {
+	width: 90%;
+	background-color: #10c9c3;
+}
+.line-three::before {
+	width: 65%;
+	background-color: #10c9c3;
+}
+.section-four {
+	font-family: 'Montserrat';
+	font-weight: 500;
+	background-color: #10c9c3;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.process-text {
+	font-family: 'Nunito Sans';
+	font-weight: 400;
+	font-size: 16px;
+	color: #787878;
+}
+.quantity,
+.portfolio,
+.clock,
+.star,
+.like {
+	display: inline;
+	color: #fff;
+}
+.result {
+	font-size: 12px;
+	padding-top: 35px;
+	padding-left: 68px;
+	color: #fff;
+	position: relative;
+}
+
+.portfolio,
+.clock,
+.star,
+.like {
+	padding-top: 10px;
+	position: absolute;
+}
+.quantity {
+	font-size: 18px;
+	padding-left: 68px;
+	padding-top: 5px;
+	position: absolute;
+}
+.box-1,
+.box-3,
+.box-8,
+.box-6  {
+	height: 300px;
+	background-color: #838383;
+}
+.box-7:hover {
+	cursor: pointer;
+	background-color: #252525;
+	background-image: url(../image/pe-7s-look.png);
+	background-repeat: no-repeat;
+	background-size: 48px 30px;
+	background-position: 50% 50%;
+}
+.box-1:hover {
+	cursor: pointer;
+	background-color: #252525;
+	background-image: url(../image/pe-7s-look.png);
+	background-repeat: no-repeat;
+	background-size: 48px 30px;
+	background-position: 50% 50%;
+}
+.box-2:hover {
+	cursor: pointer;
+	background-color: #252525;
+	background-image: url(../image/pe-7s-look.png);
+	background-repeat: no-repeat;
+	background-size: 48px 30px;
+	background-position: 50% 50%;
+}
+.box-3:hover {
+	cursor: pointer;
+	background-color: #252525;
+	background-image: url(../image/pe-7s-look.png);
+	background-repeat: no-repeat;
+	background-size: 48px 30px;
+	background-position: 50% 50%;
+}
+.box-4:hover {
+	cursor: pointer;
+	background-color: #252525;
+	background-image: url(../image/pe-7s-look.png);
+	background-repeat: no-repeat;
+	background-size: 48px 30px;
+	background-position: 50% 50%;
+}
+.box-5:hover {
+	cursor: pointer;
+	background-color: #252525;
+	background-image: url(../image/pe-7s-look.png);
+	background-repeat: no-repeat;
+	background-size: 48px 30px;
+	background-position: 50% 50%;
+}
+.box-6:hover {
+	cursor: pointer;
+	background-color: #252525;
+	background-image: url(../image/pe-7s-look.png);
+	background-repeat: no-repeat;
+	background-size: 48px 30px;
+	background-position: 50% 50%;
+}
+.box-8:hover {
+	cursor: pointer;
+	background-color: #252525;
+	background-image: url(../image/pe-7s-look.png);
+	background-repeat: no-repeat;
+	background-size: 48px 30px;
+	background-position: 50% 50%;
+}
+.box-2,
+.box-4,
+.box-5,
+.box-7 {
+	height: 300px;
+	background-color: #ddd;
+}
+.section-five-footer {
+	background-color: #f5f5f5;
+}
+.lmw {
+	font-family: 'Montserrat';
+	font-weight: 500;
+	text-align: center;
+	font-size: 12px;
+	padding-top: 45px;
+	padding-bottom: 35px;
+}
+.lmw > a {
+	color: #8e8e8e;
+}
+.our-work,
+.pr-tx {
+	text-align: center;
+}
+.our-work {
+	color: 191919;
+	font-family: 'Montserrat';
+	font-weight: 500;
+	margin-top: 75px;
+	margin-bottom: 30px;
+}
+.pr-tx {
+	margin-bottom: 50px;
+}
+.video-box {
+	padding-bottom: 100px;
+	position: relative;
+	width: 100%;
+	height: 570px;
+}
+.video-box-content {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.play-icon {
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	position: absolute;
+}
+.section-six {
+	height: 930px;
+}
+.section-seven {
+	padding-top: 100px;
+	background-color: #f5f5f5;
+	padding-bottom: 90px;
+}
+.flex-style {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.services-two,
+.services-three,
+.services-four,
+.services-five,
+.services-six,
+.services-seven,
+.services-eight,
+.services-one {
+	text-align: center;
+}
+.diamond-name,
+.diamond-text,
+.arc-name,
+.arc-text,
+.app-name,
+.app-text,
+.game-name,
+.game-text,
+.seo-name,
+.seo-text,
+.photography-name,
+.photography-text,
+.graph-name,
+.graph-text,
+.illustr-name,
+.illustr-text {
+	text-align: center;
+}
+.diamond,
+.arc,
+.app,
+.game,
+.seo,
+.photography,
+.graph,
+.illustr {
+	padding-bottom: 20px;
+}
+.diamond-name,
+.arc-name,
+.app-name,
+.game-name,
+.seo-name,
+.photography-name,
+.graph-name,
+.illustr-name {
+	font-family: 'Montserrat';
+	font-weight: 500;
+	color: #191919;
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+.arc-text,
+.app-text,
+.game-text,
+.seo-text,
+.photography-text,
+.graph-text,
+.illustr-text {
+	font-family: 'Nunito Sans';
+	font-weight: 400;
+	color: #787878;
+	padding-bottom: 50px;
+}
+.section-eight {
+	background-color: #10c9c3;
+}
+.section-nine {
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+.sponsors {
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+.sponsor-three {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.sponsor-four {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.sponsor-five {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.sponsor-one {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.sponsor-two {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.section-eleven {
+	background-color: #f5f5f5;
+}
+.frmd {
+	text-align: center;
+}
+.swiper-slide {
+	padding-top: 180px;
+	padding-bottom: 175px;
+}
+.swiper-text,
+.mk {
+	color: #fff;
+}
+.mk {
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 12px;
+}
+.swiper-text {
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 24px;
+	padding-bottom: 30px;
+}
+.myclass {
+	padding-left: 7px;
+}
+.myclass1 {
+	padding-right: 7px;
+}
+.project {
+	padding-top: 100px;
+	padding-bottom: 30px;
+}
+.name-project {
+	padding-bottom: 30px;
+	font-family: 'Montserrat';
+	font-weight: 500;
+	color: #1d1d1d;
+	font-size: 30px;
+}
+.text-project {
+	font-family: 'Nunito Sans';
+	font-weight: 400;
+	color: #898989;
+	font-size: 16px;
+}
+.controls {
+	font-family: 'Nunito Sans';
+	font-weight: 400;
+	font-size: 15px;
+	color: #898989;
+}
+.btn-style-msg {
+	font-family: 'Montserrat';
+	font-weight: 500;
+	margin-top: 10px;
+	margin-bottom: 90px;
+	font-size: 12px;
+	padding: 23px 46px;
+	border: none;
+	background-color: #10c9c3;
+	color: #fff;
+}
+.section-footer {
+	background-color: #141414;
+	color: #fff;
+}
+.name-inc {
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 18px;
+}
+.text-inc {
+	font-family: 'Nunito Sans';
+	font-weight: 400;
+	font-size: 15px;
+	color: #bcbcbc;
+}
+.mail-mail {
+	color: #bcbcbc;
+	font-family: 'Nunito Sans';
+	font-weight: 400;
+}
+.number {
+	color: #bcbcbc;
+	font-family: 'Work Sans';
+	font-weight: 400;
+
+}
+.num {
+	list-style-type: none;
+}
+a {
+	color: #bcbcbc;
+}
+a:hover {
+	color: #10c9c3;
+	text-decoration: none;
+}
+.list-one > ul,
+.list-two > ul,
+.list-three > ul{
+	list-style-type: none;
+}
+.list-one,
+.list-two,
+.list-three {
+	font-family: 'Nunito Sans';
+	font-weight: 400;
+	color: #bcbcbc;
+	font-size: 15px;
+}
+.footer {
+	padding-top: 100px;
+	padding-bottom: 90px;
+}
+
+
+header .navbar-default {
+	background-color: #e9e9e9;
+}
+.section-ten {
+	padding: 75px 0;
+	background: linear-gradient(90deg, #ffffff 50%, #e9e9e9 50%);
+}
